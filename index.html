@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="center">Daniel, Munoz</h1>
+
+  <p class="center"><em>Do you know da wae?</em></p>
+  <div class="center">
+    <img src="{{ site.baseurl }}/img/knuckle.jpg" alt="A picture of Ugandan knuckles">
+  </div>
+  <!-- flex container div-->
+  <div class="flex-container">
+    <!-- about me div -->
+    <div class="about-me">
+      <h3>About Me</h3>
+      <div>
+        <h4>Education</h4>
+        <p>2014, Wilson High School</p>
+      </div>
+      <div>
+        <h4>Skills</h4>
+        <ol>
+          <li>HTML</li>
+          <li>CSS and Flexbox</li>
+          <li>Javascript</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Expectations</h4>
+        <p>Looking to improve my skills of HTML, CSS, and Javascript</p>
+      </div>
+
+    </div>
+    <!-- contact me div -->
+    <div class="contact-me">
+      <h3>Contact Me!</h3>
+      <form action="https://formspree.io/daniel.munozdev@gmail.com"
+            method="POST">
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" type="text" name="name" placeholder="Your name"required>
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input id="email" type="email" name="_replyto" placeholder="Your email" required>
+        </div>
+        <div>
+          <label for="message">Message: </label>
+          <textarea id="comment" name="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <button type="submit">Send your message!</button>
+      </form>
+    </div>
+  </div>
+</div>
